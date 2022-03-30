@@ -22,7 +22,7 @@ public class BallMover : MonoBehaviour
     
     private Vector2 RandomInsideArc() 
     {
-        float angle = Random.RandomRange(Mathf.PI / 4, Mathf.PI * 3 / 4);
+        float angle = Random.Range(Mathf.PI / 4, Mathf.PI * 3 / 4);
         return new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
     }
     
